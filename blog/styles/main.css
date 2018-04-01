@@ -42,10 +42,6 @@ header nav ul li {
     margin: 0%;
 }
 
-nav {
-    margin: 0%;
-}
-
 .hoverable:hover {
     color: white;
 }
