@@ -2,6 +2,7 @@ body {
     background: #74a4f2;
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
+    
 
 }
 
@@ -46,3 +47,8 @@ header nav ul li {
     color: white;
 }
 
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
