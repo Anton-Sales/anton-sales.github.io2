@@ -36,7 +36,7 @@ h1, li {
 }
 
 header nav ul li {
-    font-size: 30px;
+    font-size: 28px;
     display: inline-block;
     list-style-type: none;
     padding: 5px 15px;
@@ -52,3 +52,10 @@ header nav ul li {
     margin: 0 auto;
     padding: 0 5%;
 }
+
+.boxmodelcontainer .boxmodel {
+    display: inline-block;
+
+}
+
+
