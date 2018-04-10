@@ -1,58 +1,60 @@
-.header-container {
-    background: #999;
-    padding: 20px;
-    border-bottom:3px solid black;
+body {
+    background: #74a4f2;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    
 }
 
-.header {
+header {
+    background: #3875d8;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 1%;
     display: inline;
 }
 
-h1.header {
-    font-weight: bold;
-    margin: 0 0 0 20px;
-}
-
-h3.header {
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-    font-weight: 600;
-}
-
-h3.header a:hover {
-    list-style-type: none;
-    color: black;
-    background-color: #e9ebe4;
-}
-
-a {
-    color: black;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0px auto;
-}
-
-ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-li {
+nav ul {
+    margin: 0%;
+    padding:25px 30px;
     display: inline;
-    padding: 5px;
 }
 
-li a:hover {
+nav ul li {
     color: black;
-    background-color: #e9ebe4;
 }
 
-a:link {
+li a {
+    color: black;
     text-decoration: none;
 }
+
+h1, li {
+    color: black;
+}
+
+header nav ul li {
+    font-size: 20px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    margin: 0%;
+}
+
+.hoverable:hover {
+    color: white;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.boxmodelcontainer .boxmodel {
+    display: inline-block;
+
+}
+
 
