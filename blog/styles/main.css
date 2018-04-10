@@ -1,0 +1,62 @@
+.header-container {
+    background: #999;
+    padding: 20px;
+    border-bottom:3px solid black;
+}
+
+
+.header {
+    display: inline;
+}
+
+h1.header {
+    font-weight: bold;
+    margin: 0 0 0 20px;
+}
+
+h3.header {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+h3.header a:hover {
+    list-style-type: none;
+    color: black;
+    background-color: #e9ebe4;
+}
+
+a {
+    color: black;
+}
+
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+li a:hover {
+    color: black;
+    background-color: #e9ebe4;
+}
+
+a:link {
+    text-decoration: none;
+}
+
