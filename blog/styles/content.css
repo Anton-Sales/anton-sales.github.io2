@@ -62,3 +62,29 @@ a:link {
     margin: 0% auto;
 
 }
+
+
+.content-container  {
+    padding: 10px;
+    height: 100px;
+    
+}
+
+.left {
+    float: left;
+    text-align: left;
+    width: 25%;
+    
+}
+
+.right p {
+    float: left;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70%;
+  }
+
+
+
+
