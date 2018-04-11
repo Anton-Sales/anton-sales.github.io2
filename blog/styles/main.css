@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 .header-container {
     background: #999;
     padding: 20px;
@@ -42,7 +46,7 @@ ul {
     padding: 0;
 }
 
-li {
+#liheader {
     display: inline;
     padding: 5px;
 }
@@ -62,3 +66,21 @@ a:link {
     margin: 0% auto;
 
 }
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
