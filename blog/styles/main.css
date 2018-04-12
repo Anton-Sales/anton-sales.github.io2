@@ -37,6 +37,7 @@ a {
 .container {
     max-width: 960px;
     margin: 0px auto;
+    border-bottom: 0.1px solid #999;
 }
 
 ul {

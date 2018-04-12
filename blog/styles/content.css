@@ -2,6 +2,8 @@ html {
     overflow-y: scroll;
 }
   
+/* Header CSS */
+
 .header-container {
     background: #999;
     padding: 20px;
@@ -37,6 +39,7 @@ a {
 .container {
     max-width: 960px;
     margin: 0px auto;
+    border-bottom: 0.1px solid #999;
 }
 
 ul {
@@ -60,6 +63,11 @@ a:link {
     text-decoration: none;
 }
 
+/* Body CSS */
+
+h2 {
+    text-align: center;
+}
 
 .wrapper {
     max-width: 960px;
@@ -101,6 +109,37 @@ li {
 p {
     margin-bottom: 10px;
 }
+
+h3, img {
+    text-align: center;
+}
+
+/* IMG WIREFRAME DIV CONTAINER */
+
+.img-content-container {
+    width: 100%;
+}
+
+.imgmobile {
+    display: flex;
+}
+
+.leftimage {
+    width: 50%;
+    text-align: center;
+}
+
+.rightimage {
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 /* Mobile first queries */
 
